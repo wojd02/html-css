@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, rgb(26, 27, 29), rgb(15, 18, 27));
+    font-family: monospace;
+    color: rgb(200, 225, 247);
+    margin: 0px;
+}
+header{
+    text-align: center;
+}
+div.capa{
+    background-image: url(capa/capa2.1.jpg);
+    background-size: 100%;    
+}
+div.capa>h1{
+    margin: 0px;
+    padding-top: 15px;
+}
+div.capa>p{
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+main{
+    text-align: center;
+}
+nav.bar{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+nav.bar>a{
+    color: rgb(200, 225, 247);
+    text-decoration: none;
+}
+nav.bar>a:hover{
+    background-color: darkred;
+    padding: 2px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    font-size: 1,2em;
+}
+div.capa>a{
+    text-align: end;
+}
+img.g{
+    padding: 3px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: red;
+    box-shadow: 2px 2px 2px rgba(255, 0, 0, 0.356);
+    
+}
+mark{
+    background-color: red;
+    color: rgb(15, 18, 27);
+}

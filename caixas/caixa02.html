@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gouping tags</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            background-color: lightgray;*/
+        }
+        .principal{
+            background-color: white;
+        }
+        nav{
+            background-color: darkgray;
+            box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.548);
+        }
+        a:hover{
+            background-color: rgb(0, 0, 0);
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            margin-left:30px;
+            font-weight: bold;
+
+        }
+        header{
+            background-color: white;
+            padding: 0px 5px;
+        }
+        main{
+            background-color: white;
+            text-align: justify;
+            border-radius: 0px 20px 20px 20px;
+            margin: 5px 0px 0px 0px;
+        }
+        article{
+            padding: 5px 5px;
+            /*border-width: 2px 2px 0px 2px;
+            border-style: solid;
+            border-color: black;*/
+            border-radius: 0px 20px 20px 20px;
+        }
+        article>aside{
+            background-color: darkgray;
+            text-align: center;
+            border-radius: 45px;
+        }
+        footer{
+            color: white;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px;
+            margin: 15px 0px;
+        }
+        footer>p{
+            margin:0px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1 class="principal">Meus sites</h1>
+            <nav>
+                <a href="#">site 1</a>
+                <a href="#">site 2</a>
+                <a href="#">site 3</a>
+                <a href="#">site 4</a>
+            </nav>
+
+    </header>
+    <main>
+        <section id="noticia">
+            <article>
+                <h1>Noticia sobre cidadania</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quos magnam tempore vero sapiente quod illum aperiam architecto hic debitis cupiditate voluptatibus exercitationem deserunt corporis eveniet voluptate, totam accusantium culpa.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugiat unde iure voluptatum molestias, facere tempore, fuga, quos explicabo distinctio iusto! Minima libero beatae commodi voluptatem perferendis iusto aliquam soluta.</p>
+                <aside>Escrito por josé da silva</aside>
+            </article>
+            <article>
+                <h1>Noticia esportes</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quas placeat inventore repellendus vero porro, odio nostrum aliquid maiores facere sint similique possimus neque eveniet quidem provident, eius, a molestiae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora ducimus aspernatur atque veniam sit ullam possimus corporis maxime, repudiandae ut, modi ex rerum! Dolores voluptas quisquam autem labore delectus?</p>
+                <aside>Escrito por Alberto Moraes</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por WOJD PROGRAMAS</p>
+    </footer>
+</body>
+</html>

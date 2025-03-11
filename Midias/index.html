@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir essa imagem em diferentes dispositivos ou apenas diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imgs/p.png" sizes="">
+        <source media="(max-width:1050px)" srcset="imgs/m.png" sizes="">
+        <img src="imgs/g.png" alt="imagem flexível">
+    </picture>
+    <h1>Desafio da imagem dinâmica</h1>
+    <p>Foto retirada do pexels que é um site com licensas gratuitas a fins de estudos</p>
+    <picture>
+        <source media="(max-width:800px)" srcset="desafio/paisagem-p.png" sizes="" type="image/png">
+        <source media="(max-width:1150px)" srcset="desafio/paisagem-m.png" sizes="" type="image/png">
+        <img src="desafio/paisagem-g.png" alt="imagem de uma mulher de braços abertos olhando pro horizonte">
+    </picture>
+    <h1>Reprodução de áudio</h1>
+    <p>Reproduzindo o áudio what if so then</p>
+    <audio preload="metadata" src="musica/whatifsothen-karneef.mp3"controls loop></audio>
+    <h1>Vídeos</h1>
+    <h2>Vídeo hospedado em um servidor local</h2>
+    <video width="300" poster="imgs/3fc1189d027baefcd8f7986b2b1a91d3.jpg" controls>
+        <source src="musica/video-trem-1.mp4" type="video/mp4">
+        <source src="musica/video-trem-1.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com esse tipo de vídeo</p>
+    </video>
+    <h1>Vídeo hospedado em servidores externos</h1>
+    <p>Esse vídeo esta hospedado no servidor do youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZsQnAuh3tZU?si=FUmexWiTR8krxz2a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Desafio dos vídeos</h1>
+    <a href="Curso-hardware.html" rel="next"><img width="300px" src="desafio-video/thumb-hardware.png" alt="hardware"></a>
+    <a href="Curso-html.html" rel="next"><img width="300px" src="desafio-video/thumb-html.png" alt="html"></a>
+    <br>
+    <a href="curso-js.html" rel="next"><img width="300px" src="desafio-video/thumb-js.png" alt="javascript"></a>
+    <a href="curso-python.html" rel="next"><img width="300px" src="desafio-video/thumb-python.png" alt="python"></a>
+</body>
+</html>

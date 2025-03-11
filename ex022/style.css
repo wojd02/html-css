@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body{
+    /*   *{height: 100%;}  = configurações globais CSS*/
+    background-image: linear-gradient(to bottom, rgb(26, 27, 29), rgb(15, 18, 27));
+    font-family: monospace;
+}
+p{
+    text-align: justify;
+    color: rgb(200, 225, 247);
+}
+h1{
+    color: hsl(0, 100%, 46%);
+    text-align: justify;
+    text-align: center;
+    
+  }
+h2{
+    color: #c8e1f7;
+    text-align: justify;
+}
+blockquote{
+    color: rgb(200, 225, 247);
+}
+code{
+    color: rgb(200, 225, 247);
+}
+strong{
+    color: rgb(255, 0, 0);
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+}
