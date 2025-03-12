@@ -2,14 +2,32 @@
 body{
     background-color: rgb(15, 18, 27)
 }
+header{
+    min-width: 300px;
+    max-width: 1200px;
+    background-color: red;
+    margin: auto;
+    border-radius: 10px;
+    font-family: monospace;
+}
+header>h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+header>p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 17px;
+}
 main{
+    min-width: 300px;
+    max-width: 1000px;
     background-color: rgb(255, 255, 255);
-    width: 1000px;
     height: auto;
     border-radius: 10px;
-    display: block;
     margin: auto;
     padding: 5px;
+    font-family: monospace;
 }
 main>p{
     text-align: justify;
@@ -24,27 +42,33 @@ main>h2{
     text-align: justify;
     padding: 5px;
     font-size: 15px;
-    background-image: linear-gradient(to right, rgb(200, 225, 247), white );
 }
 main>h3{
     text-align: justify;
     padding: 5px;
 }
-div.vid{
-    position: relative;
-    top: 5%;
-    left: 5%;
-    width: 10%;
-    height: 10%;
-    margin: auto;
-}
-div.vid > iframe{
+.video{
     background-color: rgb(15, 18, 27);
+    position: relative;
+    padding: 5px;
+    padding-bottom: 50%;
+}
+.video > iframe{
     margin: 0px -10px 30px -10px;
     padding: 20px;
-    padding-bottom: 50%;
     position: absolute;
+    top: 4%;
+    left: 4%;
+    width: 90%;
+    height: 90%;
 }
-hr{
-    color: black;
+main>picture{
+    width: 100%;
+
+}
+aside{
+    text-align: center;
+}
+aside.mapa{
+    text-align: justify;
 }
