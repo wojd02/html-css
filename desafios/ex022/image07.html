@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+            position: relative;
+            background-size: cover;
+        }
+        #conteudo{
+            /*background-color: yellow;*/
+            font-size: 3em;
+            height: 200px;
+            width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: green;   
+        }
+        p{
+            height: 300px;
+            width: 200px;
+            position: absolute;
+            background-color: rgb(174, 248, 90);
+            top: 67%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: black;
+            border-radius: 10px;  
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="container">
+            <article>
+                <h1 id="conteudo">CENTER</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aut. Non, numquam rerum iure voluptatum fuga provident id cum perferendis voluptatibus libero eius aspernatur dignissimos. Pariatur similique et quas eveniet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro veniam adipisci quaerat aspernatur, fugit modi assumenda eos, molestias, vero cum nam? Labore neque ab voluptatum distinctio quos, et iure corrupti?.</p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
