@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Russo One;
+    src: url('https://fonts.googleapis.com/css2?family=Anta&family=Russo+One&display=swap');
+}
+:root{
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+header > aside{
+    padding-bottom: 50px;
+}
+h1{
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 100px;
+}
+
+main{
+    font-size: 35px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+section{
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    padding-left: 30px;
+}
+section > p{
+    padding: 35px;
+    text-align: justify;
+}
+/*#ghoul{
+    background-color: black;
+    color: red;
+}*/
+main>aside{}
+
+h2{
+    padding-left: 20px;
+    padding-top: 75vh;
+    padding-bottom: 75vh;
+    font-size: 100px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+#TG{
+    padding-top: 75px;
+    padding-left: 75px;
+    background-image: url(imagens/tokyo-ghoul.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+#JJK{
+    padding-top: 75px;
+    padding-left: 75px;
+    background-image: url(imagens/jujutsu-kaisen.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+#MHA{
+    padding-top: 75px;
+    padding-left: 75px;
+    background-image: url(imagens/boku-no-hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+#VNLS{
+    padding-top: 75px;
+    padding-left: 75px;
+    background-image: url(imagens/vinland-saga.png);
+    background-position: center center;
+    color: white;
+}
+
+#HXH{
+    padding-top: 75px;
+    padding-left: 75px;
+    background-image: url(imagens/hxh.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+body{}
