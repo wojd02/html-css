@@ -81,7 +81,7 @@ h2{
     background-image: url(imagens/tokyo-ghoul.jpg) ;
     background-position: center center;
     background-size: cover;
-    color: white;
+    color: red;
 }
 
 #JJK{
@@ -92,7 +92,7 @@ h2{
     background-image: url(imagens/jujutsu-kaisen.jpg);
     background-position: center center;
     background-size: cover;
-    color: white;
+    color: #D93644;
 }
 
 #MHA{
@@ -103,7 +103,7 @@ h2{
     background-image: url(imagens/boku-no-hero.jpg);
     background-size: cover;
     background-position: center center;
-    color: white;
+    color: #F2695C;
 }
 
 #VNLS{
@@ -113,7 +113,7 @@ h2{
     padding-left: 75px;
     background-image: url(imagens/vinland-saga.png);
     background-position: center center;
-    color: white;
+    color: #F4BF5F;
 }
 
 #HXH{
@@ -124,7 +124,7 @@ h2{
     background-image: url(imagens/hxh.jpg);
     background-size: cover;
     background-position: center center;
-    color: white;
+    color: #B9BDA2;
 }
 
 footer{
