@@ -3,9 +3,6 @@
     font-family: Russo One;
     src: url('https://fonts.googleapis.com/css2?family=Anta&family=Russo+One&display=swap');
 }
-:root{
-
-}
 *{
     margin: 0px;
     padding: 0px;
@@ -61,8 +58,6 @@ section > p{
     background-color:#3A3140;
     color: #F2C299;
 }    
-main>aside{}
-
 h2{
     text-shadow: 3px 3px 0px black;
     padding-left: 20px;
@@ -143,4 +138,4 @@ a:hover{
     transition: 0.5s;
 }
 
-body{}
+
