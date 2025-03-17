@@ -133,5 +133,14 @@ footer{
     color: white;
     padding: 5px;
 }
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    background-color: darkred;
+    border-radius: 3px;
+    transition: 0.5s;
+}
 
 body{}
