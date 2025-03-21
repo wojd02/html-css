@@ -6,10 +6,14 @@
     <title>Iframe 01</title>
     <style>
         iframe{
-            width: 500px;
+            height: 522px;
+            width: 501px;
+        }
+        #art{
+            width: 501px;
             height: 522px;
             position: absolute;
-            transform: translate(2%);
+            transform: translate(0%);
  
         }
         div.vid{
@@ -17,26 +21,65 @@
             width: 55vh;
             height: 522px;
             position: relative;
-            bottom: 538px;
+            bottom: -16px;
             left: 206px;
-            margin: 10px;
-
+        }
+        div.vid2{
+            background-color: lightgray;
+            width: 55vh;
+            height: 522px;
+            position: relative;
+            bottom: 1040px;
+            left: 2px;
         }
         .lateral{
             width: 200px;
             text-align: justify;
             background-color: lightgray;
+            position: absolute;
+            transform: translate(0%);
+        }
+        .laterald{
+            width: 400px;
+            text-align: justify;
+            background-color: lightgray;
+            position: absolute;
+            transform: translate(0%);
         }
         .direita{
-
+            width: 55vh;
+            height: 522px;
+            position: relative;
+            bottom: 538px;
+            left: 701px;
+            margin: 10px;
+        }
+        .direita2{
+            width: 55vh;
+            height: 522px;
+            position: relative;
+            bottom: 535px;
+            left: 0px;
+            margin: 10px;
         }
     </style>
 </head>
 <body>
     <h1>Utilizando Iframes (frame inline)</h1>
-    <p class="lateral">Fazendo alguns testes de Iframe, podemos colocar um site inteiro para carregar dentro de um bloco dentro do seu site, no exemplo segue meu portfólio do artstation. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nisi quam totam iusto, ut ullam consequuntur quidem beatae tempora ipsa ab labore magni, quae impedit sunt distinctio alias sint. Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur praesentium optio vero dolores nemo voluptate. Tenetur quis suscipit natus distinctio autem rerum, eum culpa, aspernatur, dolorum possimus sit? Autem, porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dolorem quas perspiciatis soluta minus voluptatum veritatis unde! Blanditiis amet quae voluptas suscipit quam ad architecto rem consequatur id nihil. <div class="vid"> <iframe src="https://www.artstation.com/wojd" frameborder="0"></iframe><a href="https://www.artstation.com/wojd">artstation wojd02</a></div> </p>
+    <p class="lateral">Fazendo alguns testes de Iframe, podemos colocar um site inteiro para carregar dentro de um bloco dentro do seu site, no exemplo segue meu portfólio do artstation. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nisi quam totam iusto, ut ullam consequuntur quidem beatae tempora ipsa ab labore magni, quae impedit sunt distinctio alias sint. Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur praesentium optio vero dolores nemo voluptate. Tenetur quis suscipit natus distinctio autem rerum, eum culpa, aspernatur, dolorum possimus sit? Autem, porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dolorem quas perspiciatis soluta minus voluptatum veritatis unde! Blanditiis amet quae voluptas suscipit quam ad architecto rem consequatur id nihil. <div class="vid"> <iframe id="art" src="https://www.artstation.com/wojd" frameborder="0"></iframe><a href="https://www.artstation.com/wojd">artstation wojd02</a></div> 
+    </p>
     <div class="direita">
-        <p class="lateral">Fazendo alguns testes de Iframe, podemos colocar um site inteiro para carregar dentro de um bloco dentro do seu site, no exemplo segue meu portfólio do artstation. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nisi quam totam iusto, ut ullam consequuntur quidem beatae tempora ipsa ab labore magni, quae impedit sunt distinctio alias sint. Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur praesentium optio vero dolores nemo voluptate. Tenetur quis suscipit natus distinctio autem rerum, eum culpa, aspernatur, dolorum possimus sit? Autem, porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dolorem quas perspiciatis soluta minus voluptatum veritatis unde! Blanditiis amet quae voluptas suscipit quam ad architecto rem consequatur id nihil.</p>
+        <p class="laterald">Fazendo alguns testes de Iframe, podemos colocar um site inteiro para carregar dentro de um bloco dentro do seu site, no exemplo segue meu portfólio do artstation. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nisi quam totam iusto, ut ullam consequuntur quidem beatae tempora ipsa ab labore magni, quae impedit sunt distinctio alias sint. Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur praesentium optio vero dolores nemo voluptate. Tenetur quis suscipit natus distinctio autem rerum, eum culpa, aspernatur, dolorum possimus sit? Autem, porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dolorem quas perspiciatis soluta minus voluptatum veritatis unde! Blanditiis amet quae voluptas suscipit quam ad architecto rem consequatur id nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nisi quam totam iusto, ut ullam consequuntur quidem beatae tempora ipsa ab labore magni, quae impedit sunt distinctio alias sint. Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur praesentium optio vero dolores nemo voluptate. Tenetur quis suscipit natus distinctio autem rerum, eum culpa, aspernatur, dolorum possimus sit? Autem, porro? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit culpa dolorem quas perspiciatis soluta minus voluptatum veritatis unde! Blanditiis amet quae voluptas suscipit quam ad architecto rem consequatur id nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nisi quam totam iusto, ut ullam consequuntur quidem beatae tempora ipsa ab labore magni, quae impedit sunt distinctio alias sint. Dolorum.  </p>
+    </div>
+    <div class="direita2">
+        <p>
+            <a href="../tabelas/tabela02.html" target="framee">Link 1</a>
+            <a href="../tabelas/desafiotabela1.html" target="framee">Link 2</a>
+            <a href="../tabelas/tabela01.html" target="framee">Link 3</a>
+        </p>
+    </div>
+    <div class="vid2">
+        <iframe name="framee" src="../tabelas/tabela02.html" frameborder="0"></iframe>
     </div>
    
 </body>
