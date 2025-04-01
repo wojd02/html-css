@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário-03</h1>
+    <form action="cadastro.php" autocomplete="on" method="get">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" id="inome" name="nome" required minlength="5" maxlength="20" placeholder="primeiro nome">
+            </p>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" id="iemail" name="email" autocomplete="email" required placeholder="exemplo@email.com">
+            </p>
+            <p>
+                <!--Estudar sobre RegEx-->
+                <label for="icel">Telefone:</label>
+                <input type="tel" id="icel" name="cel" autocomplete="tel" required pattern="^\(\d{2}\)[0-9]{4,5}-[0-9]{4}$" placeholder="(XX)XXXX-XXXX">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" id="isxmas" name="sexo" value="M">
+            <label for="isxmas">Masculino</label>
+            <input type="radio" id="isxfem" name="sexo" value="F">
+            <label for="isxfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <p>
+                <input type="checkbox" id="ifutebol"><label for="ifutebol">Futebol</label>
+                <input type="checkbox" id="ivolei"><label for="ivolei">Volei</label>
+                <input type="checkbox" id="inatacao"><label for="inatacao">Natação</label>
+                <input type="checkbox" id="ibasquete"><label for="ibasquete">Basquete</label>
+                <input type="checkbox" name="" id="ioutro"><label for="ioutro">Outro</label>
+
+            </p>
+        </fieldset>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
