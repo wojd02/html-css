@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario 08-10</h1>
+    <form action="" method="get">
+        <p>
+            <label for="in1">Número 1:</label>
+            <input type="number" id="in1" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="in2">Número 2:</label>
+            <input type="number" id="in2" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output id="isoma">0</output>
+        </p>
+        <p>
+            <label for="iran">Range:</label>
+            <input type="range" id="iran" min="0" max="10" value="5" oninput="irano.innerHTML = Number(iran.value)">
+            <output id="irano">5</output>
+        </p>
+        <p>
+            <label for="iano">Ano de nascimento:</label>
+            <input type="number" id="iano" min="1900" max="2025" value="2005" oninput="oidade.innerHTML = Number(2025) - Number(iano.value)">
+        </p>
+        <p>
+            <label for="iidade">Idade</label>
+            <output id="oidade">20</output>
+        </p>
+    </form>
+</body>
+</html>

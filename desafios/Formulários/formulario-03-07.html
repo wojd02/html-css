@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário 03-07</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <fieldset>
+            <legend>Foto perfil</legend>
+            <p>
+                <label for="ifoto">Foto de perfil</label>
+                <input type="file" id="ifoto">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Data</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" id="inome" name="nome" required minlength="5" maxlength="20" placeholder="primeiro nome">
+            </p>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" id="iemail" name="email" autocomplete="email" required placeholder="exemplo@email.com">
+            </p>
+            <p>
+                <!--Estudar sobre RegEx-->
+                <label for="icel">Telefone:</label>
+                <input type="tel" id="icel" name="cel" autocomplete="tel" required pattern="^\(\d{2}\)[0-9]{4,5}-[0-9]{4}$" placeholder="(XX)XXXX-XXXX">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" id="isxmas" name="sexo" value="M">
+            <label for="isxmas">Masculino</label>
+            <input type="radio" id="isxfem" name="sexo" value="F">
+            <label for="isxfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <p>
+                <input type="checkbox" id="ifutebol"><label for="ifutebol">Futebol</label>
+                <input type="checkbox" id="ivolei"><label for="ivolei">Volei</label>
+                <input type="checkbox" id="inatacao"><label for="inatacao">Natação</label>
+                <input type="checkbox" id="ibasquete"><label for="ibasquete">Basquete</label>
+                <input type="checkbox" name="" id="ioutro"><label for="ioutro">Outro</label>
+
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Cores</legend>
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" id="icor">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Estado</legend>
+            <label for="iest">Estado:</label>
+            <select name="est" id="iest"> <!--Lista de escolha sem opção de escrever-->
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="MA">Maranhão</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Profissão</legend>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof"> <!--Lista de escolha com opção de escrever-->
+                <option value="ADM">Administrador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="CTB">Contabilista</option>
+                <option value="TI">Técnico de informática</option>
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Satisfação</legend>
+            <label for="isat">Nível de satisfação</label>
+            <input type="range" id="isat" min="1" max="5">
+        </fieldset>
+        <fieldset>
+            <legend>Deixe uma mensagem para nós!</legend>
+            <p>
+                <label for="imsg">Mensagem: </label>
+                <textarea name="nmsg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
+        </fieldset>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
