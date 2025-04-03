@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* estilo empresora*/
+
+*{
+    margin: 10px;
+    padding: 5px;
+}
+head > title{
+    display: none;
+}
+
+html{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+body > article{
+    text-align: center;
+    height: 100vh;
+}
+menu{
+    display: none;
+}
+article::after{
+    content: 'Esse artigo foi impresso no site wojd02 programas';
+    font-size: 10px;
+    font-weight: bold;
+}
+article > h1{
+    text-align: center;
+}
+article > p{
+    text-align: right;
+}

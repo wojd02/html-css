@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* estilo tela*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    text-align: center;
+    margin: auto;
+}
+main{
+    width: 700px;
+    margin: auto;
+}
+header > menu > ul{
+    background-color: darkgray;
+    padding: 5px;
+    margin: 5px;
+}
+header > menu > ul > li{
+    display: inline-block;
+    padding: 0px 15px;
+    color: white;
+    background-color: rgb(122, 122, 122);
+}
+article > p{
+    text-align: justify;
+    margin: 10px 0px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.308);
+}
+article > h1{
+    margin: 5px;
+}
