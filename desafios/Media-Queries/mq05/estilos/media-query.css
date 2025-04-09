@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    main{
+        width: 600px;
+    }
+    menu{
+        text-align: justify;
+        padding: 5px;
+    }
+    menu > a{
+        background-color: rgb(88, 88, 88);
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 5px;
+        padding: 2px;
+    }
+    menu > a:hover{
+        background-color: white;
+        color: black;
+        text-decoration: underline;
+        transition: 0.3s;
+        margin: 20px;
+        border: 2px solid black;
+    }
+}
+/*desktop*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    main{
+        width: 600px;
+    }
+    main > article > h2{
+        text-align: justify;
+    }
+    menu{
+        text-align: justify;
+        padding: 5px;
+    }
+    menu > a{
+        background-color: rgb(88, 88, 88);
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 5px;
+        padding: 2px;
+    }
+    menu > a:hover{
+        background-color: white;
+        color: black;
+        text-decoration: underline;
+        transition: 0.3s;
+        margin: 20px;
+        border: 2px solid black;
+    }
+}
+/*telas grandes*/
+@media screen and (min-width: 1200px){
+    main{
+        width: 700px;
+        text-align: justify;
+    }
+    main > article > h2{
+        text-align: justify;
+    }
+    menu{
+        text-align: justify;
+        padding: 5px;
+    }
+    menu > a{
+        background-color: rgb(88, 88, 88);
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 5px;
+        padding: 2px;
+    }
+    menu > a:hover{
+        background-color: white;
+        color: black;
+        text-decoration: underline;
+        transition: 0.3s;
+        margin: 20px;
+        border: 2px solid black;
+    }
+}
