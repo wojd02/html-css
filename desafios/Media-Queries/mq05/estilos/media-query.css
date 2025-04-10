@@ -1,5 +1,12 @@
 @charset "UTF-8";
-
+@media print{
+    menu{
+        display: none;
+    }
+    i#burger{
+        display: none;
+    }
+}
 /*tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px){
     main{
@@ -7,11 +14,15 @@
     }
     menu{
         text-align: justify;
-        padding: 5px;
+        padding: 5px;;
+    }
+    i#burger{
+        display: none;
     }
     menu > a{
         background-color: rgb(88, 88, 88);
         color: white;
+        display: inline;
         font-weight: bold;
         text-decoration: none;
         margin: 5px;
@@ -38,9 +49,13 @@
         text-align: justify;
         padding: 5px;
     }
+    i#burger{
+        display: none;
+    }
     menu > a{
         background-color: rgb(88, 88, 88);
         color: white;
+        display: inline;
         font-weight: bold;
         text-decoration: none;
         margin: 5px;
@@ -68,9 +83,13 @@
         text-align: justify;
         padding: 5px;
     }
+    i#burger{
+        display: none;
+    }
     menu > a{
         background-color: rgb(88, 88, 88);
         color: white;
+        display: inline;
         font-weight: bold;
         text-decoration: none;
         margin: 5px;
